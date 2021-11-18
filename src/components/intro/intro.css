@@ -1,65 +1,78 @@
 .i {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .i-left {
-    flex: 1;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .i-right {
-    flex: 1;
+  flex: 1;
 }
 
 .i-left-wrapper {
-    padding: 50px;
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column; /* elementler ayni kolonda oldugu icin bunu yazdim */
+  justify-content: space-between;
 }
 
 .i-intro {
-    font-size: 30px;
-    font-weight: 300;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .i-name {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 /* intro yazi animasyon */
 .i-title-wrapper {
-    height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 /* animation name buraya yaziyoruz*/
-@keyframes move {   
-    /*toplam 5 yazi oldugu icin 4 tane yazdim*/ 
-    25% {
-        transform: translateY(-50px);
-    }
+@keyframes move {
+  /*toplam 5 yazi oldugu icin 4 tane yazdim*/
+  25% {
+    transform: translateY(-50px);
+  }
 
-    50% {
-        transform: translateY(-100px);
-    }
+  50% {
+    transform: translateY(-100px);
+  }
 
-    75% {
-        transform: translateY(-150px);
-    }
+  75% {
+    transform: translateY(-150px);
+  }
 
-    100% {
-        transform: translateY(-200px);
-    }
+  100% {
+    transform: translateY(-200px);
+  }
 }
 
 .i-title {
-    height: 50px;
-    overflow: hidden;
+  height: 50px;
+  overflow: hidden;
 }
 
 .i-title-item {
-    height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #59b256;
-    display: flex;
-    align-items: center;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

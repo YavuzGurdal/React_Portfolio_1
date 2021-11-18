@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import Me from "../../img/Me.png";
 
 function Intro() {
   return (
@@ -18,11 +19,15 @@ function Intro() {
             </div>
           </div>
           <div className="i-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellat repellendus ipsum, tempora cumque inventore doloribus. Molestias quod tempore reprehenderit.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            repellat repellendus ipsum, tempora cumque inventore doloribus.
+            Molestias quod tempore reprehenderit.
           </div>
         </div>
       </div>
-      <div className="i-right"> right </div>
+      <div className="i-right">
+        <img src={Me} alt="" className="i-img" />
+      </div>
     </div>
   );
 }
