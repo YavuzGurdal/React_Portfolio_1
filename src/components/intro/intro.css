@@ -30,6 +30,7 @@
 
 .i-name {
   font-size: 60px;
+  color: #555;
 }
 
 /* intro yazi animasyon */
@@ -86,7 +87,8 @@
   position: absolute;
 }
 
-.i-bg {
+/* resim png olmadigi icin bu kisim gorunmuyor */
+/* .i-bg {
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   background-color: #59b256;
   width: 100%;
@@ -94,4 +96,4 @@
   position: absolute;
   top: 0;
   right: 0;
-}
+} */
