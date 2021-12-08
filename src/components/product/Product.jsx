@@ -10,60 +10,38 @@ function Product({ img, link, github }) {
   return (
     <div className="p">
       <div className="p-browser">
-        <div className="p-circle" style={{ backgroundColor: "red" }}></div>
-        <div className="p-circle" style={{ backgroundColor: "gold" }}></div>
-        <div className="p-circle" style={{ backgroundColor: "green" }}></div>
+        <div className="p-circle pc-1"></div>
+        <div className="p-circle pc-2"></div>
+        <div className="p-circle pc-3"></div>
       </div>
       <div className="p-container">
         <img src={img} alt="" className="p-img" />
         <div className="p-data">
           <a href={link} target="_blank" className="p-link" rel="noreferrer">
-            link
+            <FontAwesomeIcon
+              icon={faLink}
+              size="3x"
+              color="white"
+              className="FontAwesomeIcon"
+            />
           </a>
-          <FontAwesomeIcon icon={faLink} size="2x" color="white">
-            {link}
-          </FontAwesomeIcon>
-          <FontAwesomeIcon icon={faGithub} size="2x" color="white" />
-          <h2>
-            <a
-              href={github}
-              target="_blank"
-              className="p-gitup"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </h2>
-          {/* <span className="p-gitup">github</span> */}
-        </div>
-
-        {/* 
-        <div className="p-data-up">
           <a
-            href="https://github.com/YavuzGurdal"
-            className="p-link"
+            href={github}
+            target="_blank"
+            className="p-github"
             rel="noreferrer"
           >
-            link
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="3x"
+              color="white"
+              className="FontAwesomeIcon"
+            />
           </a>
-        </div>
-        <div className="p-data-down">
-          <span className="p-gitup">github</span>
-        </div>
-        */}
-      </div>
 
-      {/*  
-    <div className="p-browser">
-        <div className="p-circle">1</div>
-        <div className="p-circle" style={{ background: "blue" }}>
-          2
+          {/* <span className="p-gitup">github</span> */}
         </div>
       </div>
-      <a href="https://github.com/YavuzGurdal" target="_blank" rel="noreferrer">
-        <img src="" alt="" className="p-img" />
-      </a>
-      */}
     </div>
   );
 }
