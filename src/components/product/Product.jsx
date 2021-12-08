@@ -2,20 +2,39 @@
 import React from "react";
 import "./product.css";
 
-function Product() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+function Product({ img, link, github }) {
   return (
     <div className="p">
+      <div className="p-browser">
+        <div className="p-circle" style={{ backgroundColor: "red" }}></div>
+        <div className="p-circle" style={{ backgroundColor: "gold" }}></div>
+        <div className="p-circle" style={{ backgroundColor: "green" }}></div>
+      </div>
       <div className="p-container">
-        <img src="" alt="" />
+        <img src={img} alt="" className="p-img" />
         <div className="p-data">
-          <a
-            href="https://github.com/YavuzGurdal"
-            className="p-link"
-            rel="noreferrer"
-          >
+          <a href={link} target="_blank" className="p-link" rel="noreferrer">
             link
           </a>
-          <span className="p-gitup">github</span>
+          <FontAwesomeIcon icon={faLink} size="2x" color="white">
+            {link}
+          </FontAwesomeIcon>
+          <FontAwesomeIcon icon={faGithub} size="2x" color="white" />
+          <h2>
+            <a
+              href={github}
+              target="_blank"
+              className="p-gitup"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </h2>
+          {/* <span className="p-gitup">github</span> */}
         </div>
 
         {/* 
