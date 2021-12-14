@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./intro.css";
 import Me from "../../img/Mee.jpeg";
+import { ThemeContext } from "../../context";
 
 function Intro() {
+  const theme = useContext(ThemeContext); // useContext le contex ten gelen ThemeContext i theme e atiyoruz
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="i">
       <div className="i-left">
@@ -29,7 +33,7 @@ function Intro() {
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke={darkMode ? "white" : "black"}
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >

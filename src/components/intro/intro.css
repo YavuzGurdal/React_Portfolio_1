@@ -74,10 +74,10 @@
 }
 
 .i-scroll {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
 }
 
 .i-img {

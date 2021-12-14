@@ -34,6 +34,7 @@ function Contact() {
   };
 
   const theme = useContext(ThemeContext); // useContext le contex ten gelen ThemeContext i theme e atiyoruz
+  const darkMode = theme.state.darkMode;
 
   return (
     <div className="c">
@@ -64,9 +65,9 @@ function Contact() {
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
-                borderBottom: theme.state.darkMode && "none",
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+                borderBottom: darkMode && "none",
               }}
               type="text"
               placeholder="Name"
@@ -75,9 +76,9 @@ function Contact() {
             />
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
-                borderBottom: theme.state.darkMode && "none",
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+                borderBottom: darkMode && "none",
               }}
               type="text"
               placeholder="Subject"
@@ -85,9 +86,9 @@ function Contact() {
             />
             <input
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
-                borderBottom: theme.state.darkMode && "none",
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+                borderBottom: darkMode && "none",
               }}
               type="email"
               required="required"
@@ -96,9 +97,9 @@ function Contact() {
             />
             <textarea
               style={{
-                backgroundColor: theme.state.darkMode && "#333",
-                color: theme.state.darkMode && "white",
-                border: theme.state.darkMode && "none",
+                backgroundColor: darkMode && "#333",
+                color: darkMode && "white",
+                border: darkMode && "none",
               }}
               required="required"
               placeholder="Message"
