@@ -1,7 +1,8 @@
 export const products = [
   {
     id: 9996,
-    img: "/img/todoListApp.png",
+    // img: "/img/todoListApp.png",
+    img: "/img/todoListApp.jpg",
     title: "todo list app",
     category: "React / css",
     link: "https://yavuzgurdal.github.io/react_todo_list_app/",
@@ -9,7 +10,8 @@ export const products = [
   },
   {
     id: 9997,
-    img: "/img/currencyApp.png",
+    // img: "/img/currencyApp.png",
+    img: "/img/currencyApp.jpg",
     title: "currency app",
     category: "JAVASCRIPT / css",
     link: "https://yavuzgurdal.github.io/CurrencyApp/",
@@ -17,7 +19,8 @@ export const products = [
   },
   {
     id: 9998,
-    img: "/img/tas-kagit-makas2.jpeg",
+    // img: "/img/tas-kagit-makas2.jpeg",
+    img: "/img/RockPaperScissors.jpg",
     title: "rock-paper-scissors game",
     category: "JAVASCRIPT",
     link: "https://yavuzgurdal.github.io/JS_Rock-Paper-Scissors-Game/",
@@ -25,7 +28,8 @@ export const products = [
   },
   {
     id: 9999,
-    img: "/img/carRace.png",
+    // img: "/img/carRace.png",
+    img: "/img/car-race.jpg",
     title: "car race",
     category: "JAVASCRIPT",
     link: "https://yavuzgurdal.github.io/JS_Car-Race/",
@@ -33,7 +37,8 @@ export const products = [
   },
   {
     id: 10000,
-    img: "/img/NumberGuessinGame.png",
+    // img: "/img/NumberGuessinGame.png",
+    img: "/img/number-guessing-game.jpg",
     title: "Number-Guessing-Game",
     category: "JAVASCRIPT",
     link: "https://yavuzgurdal.github.io/JS_Number-Guessing-Game/",
