@@ -68,11 +68,25 @@
   opacity: 0.9;
   transition: 0.2s;
 }
-
+.p-title {
+  text-transform: capitalize;
+  color: #fffafa;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.p-category {
+  text-transform: uppercase;
+  color: #fffafa;
+  color: #59b256;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 5px;
+}
 .p-link {
   display: inline-flex;
   color: #fffafa;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   cursor: pointer;
 }
 

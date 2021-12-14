@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-function Product({ img, link, github }) {
+function Product({ img, title, category, link, github }) {
   return (
     <div className="p">
       <div className="p-browser">
@@ -17,6 +17,8 @@ function Product({ img, link, github }) {
       <div className="p-container">
         <img src={img} alt="" className="p-img" />
         <div className="p-data">
+          <h2 className="p-title">{title}</h2>
+          <h4 className="p-category">{category}</h4>
           <a href={link} target="_blank" className="p-link" rel="noreferrer">
             <FontAwesomeIcon
               icon={faLink}

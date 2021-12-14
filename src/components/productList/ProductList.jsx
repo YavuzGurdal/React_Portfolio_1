@@ -19,6 +19,8 @@ function ProductList() {
           <Product
             key={item.id}
             img={item.img}
+            title={item.title}
+            category={item.category}
             link={item.link}
             github={item.github}
           />
