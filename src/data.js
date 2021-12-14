@@ -29,7 +29,7 @@ export const products = [
   {
     id: 9999,
     // img: "/img/carRace.png",
-    img: "/img/car-race.jpg",
+    img: "/img/carRace.jpg",
     title: "car race",
     category: "JAVASCRIPT",
     link: "https://yavuzgurdal.github.io/JS_Car-Race/",
