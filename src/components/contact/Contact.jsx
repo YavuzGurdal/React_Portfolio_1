@@ -66,6 +66,7 @@ function Contact() {
               style={{
                 backgroundColor: theme.state.darkMode && "#333",
                 color: theme.state.darkMode && "white",
+                borderBottom: theme.state.darkMode && "none",
               }}
               type="text"
               placeholder="Name"
@@ -76,6 +77,7 @@ function Contact() {
               style={{
                 backgroundColor: theme.state.darkMode && "#333",
                 color: theme.state.darkMode && "white",
+                borderBottom: theme.state.darkMode && "none",
               }}
               type="text"
               placeholder="Subject"
@@ -85,6 +87,7 @@ function Contact() {
               style={{
                 backgroundColor: theme.state.darkMode && "#333",
                 color: theme.state.darkMode && "white",
+                borderBottom: theme.state.darkMode && "none",
               }}
               type="email"
               required="required"
@@ -95,6 +98,7 @@ function Contact() {
               style={{
                 backgroundColor: theme.state.darkMode && "#333",
                 color: theme.state.darkMode && "white",
+                border: theme.state.darkMode && "none",
               }}
               required="required"
               placeholder="Message"

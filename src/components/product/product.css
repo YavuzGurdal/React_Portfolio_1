@@ -79,6 +79,7 @@
 .p-github {
   cursor: pointer;
   color: #fffafa;
+  margin-bottom: 30px;
 }
 
 .FontAwesomeIcon:hover {
@@ -87,4 +88,32 @@
 
 .p-container:hover .p-data {
   top: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 45%;
+    height: 25vh;
+    margin: 10px 5px;
+  }
+  .p-browser {
+    height: 15px;
+  }
+
+  .p-circle {
+    width: 5px;
+    height: 5px;
+    margin: 2px;
+  }
+  .p-circle:first-child {
+    margin-left: 5px;
+  }
+  .p-link,
+  .p-github {
+    margin-bottom: 15px;
+  }
+  .FontAwesomeIcon {
+    width: 30px;
+    height: 30px;
+  }
 }
