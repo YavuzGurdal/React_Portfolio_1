@@ -15,17 +15,15 @@ function Intro() {
           <h1 className="i-name"> Yavuz Gurdal </h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item"> Web developer </div>
-              <div className="i-title-item"> Web designer</div>
-              <div className="i-title-item"> Web dev </div>
-              <div className="i-title-item"> Web design </div>
-              <div className="i-title-item"> Web dvlpr </div>
+              <div className="i-title-item"> Frontend Developer </div>
+              <div className="i-title-item"> Javascript Developer</div>
+              <div className="i-title-item"> React Developer </div>
+              {/* <div className="i-title-item"> Web design </div>
+              <div className="i-title-item"> Web dvlpr </div> */}
             </div>
           </div>
           <p className="i-desc">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            repellat repellendus ipsum, tempora cumque inventore doloribus.
-            Molestias quod tempore reprehenderit.
+            Greetings from the software developer who is always discovering and learning new things ...
           </p>
         </div>
         <svg

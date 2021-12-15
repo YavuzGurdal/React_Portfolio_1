@@ -7,11 +7,10 @@ function ProductList() {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's YvzWebDev</h1>
+        {/* <h1 className="pl-title">Create & inspire. It's YvzWebDev</h1> */}
+        <h1 className="pl-title">Learn & Work. It's YvzWebDev</h1>
         <p className="pl-desc">
-          YvzWebDev is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Homeworks I did in the software course and the studies I did to improve myself.
         </p>
       </div>
       <div className="pl-list">

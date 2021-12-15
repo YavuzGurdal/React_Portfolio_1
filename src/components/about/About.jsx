@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Aboutme from "../../img/about-me.jpeg";
-import Award from "../../img/award.png";
+// import Award from "../../img/award.png";
 
 function About() {
   return (
@@ -20,16 +20,12 @@ function About() {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          Too long for me too short for you.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I am a person who is open to learning new things. It's always been my dream to be a software developer. I made a radical change in my life and became a software developer. Now I live in a new country, learned a new language and became a software developer. As a person who is open to innovations, I continue to learn new things...
         </p>
-        <div className="a-award">
+        {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">International Design Awards 2021</h4>
@@ -38,7 +34,7 @@ function About() {
               and fugit.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
