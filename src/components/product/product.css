@@ -122,12 +122,23 @@
   .p-circle:first-child {
     margin-left: 5px;
   }
+  .p-title {
+    margin-bottom: 0px;
+    padding: 2px;
+    font-size: 16px;
+    line-height: 1.1; /* satir yuksekligi */
+  }
+  .p-category {
+    margin-bottom: 0px;
+    padding: 2px;
+    font-size: 12px;
+  }
   .p-link,
   .p-github {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .FontAwesomeIcon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }
