@@ -12,8 +12,12 @@
   position: relative;
   height: 100%;
 }
-.a-right {
+
+.a-right-wrapper {
   flex: 1;
+}
+.a-right {
+  padding: 50px;
 }
 
 .a-card.bg {

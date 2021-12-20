@@ -36,7 +36,7 @@
 /* intro yazi animasyon */
 .i-title-wrapper {
   height: 100%;
-  animation: move 6s ease-in-out infinite alternate;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 /* animation name buraya yaziyoruz*/
