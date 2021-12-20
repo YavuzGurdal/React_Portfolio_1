@@ -79,6 +79,10 @@ button {
   cursor: pointer;
 }
 
+.p-result {
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
@@ -109,5 +113,11 @@ button {
   }
   button {
     margin-top: 10px;
+  }
+
+  .p-result {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 12px 0px;
   }
 }

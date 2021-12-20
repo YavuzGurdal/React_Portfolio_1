@@ -25,12 +25,14 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(formRef.current);
           setDone(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset() // islemler bittikten sonra inputlari bosaltiyor.
   };
 
   const theme = useContext(ThemeContext); // useContext le contex ten gelen ThemeContext i theme e atiyoruz
@@ -107,7 +109,10 @@ function Contact() {
               rows="5"
             ></textarea>
             <button>Submit</button>
-            {done && "  Your Message recived"}
+            <p className='p-result' style={{
+              color: darkMode && "white"
+            }}>{done && "  Your Message recived"}</p>
+
           </form>
         </div>
       </div>
