@@ -2,7 +2,7 @@ export const products = [
   {
     id: 9995,
     // img: "/img/todoListApp.png",
-    img: "/img/marvelHeroesCards.jpg",
+    img: "/img/marvelHeroesCards.jpeg",
     title: "Marvel Heroes Cards",
     category: "React / Axios / css",
     link: "https://marvel-heroes-cardss.netlify.app/",
