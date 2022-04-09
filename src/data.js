@@ -6,7 +6,7 @@ export const products = [
     img: "/img/todolistwithcontextapi.jpg",
     title: "ToDo App with React Context Api",
     category: "React / Context Api / UseRef / css",
-    link: "https://marvel-heroes-cardss.netlify.app/",
+    link: "https://todolist-react-contextapi.netlify.app/",
     github: "https://github.com/YavuzGurdal/React_ToDoList_Hooks-ContextApi-Last",
   },
   {
