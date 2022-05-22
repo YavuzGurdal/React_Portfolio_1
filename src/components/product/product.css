@@ -144,3 +144,24 @@
     height: 20px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 100%;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .p {
+    width: 45%;
+    margin: 10px 5px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .p {
+    width: 45%;
+    margin: 10px 5px;
+  }
+}
