@@ -1,6 +1,15 @@
 export const products = [
 
   {
+    id: 9993,
+    // img: "/img/todoListApp.png",
+    img: "/img/goals.jpg",
+    title: "Mern-Stack Auth-Authzrtn-Goals",
+    category: "MongoDB / Express / Rest API / React / Redux /",
+    link: "https://mernstack-auth-autorztn-goals.herokuapp.com/",
+    github: "https://github.com/YavuzGurdal/auth-goals-mernstack",
+  },
+  {
     id: 9994,
     // img: "/img/todoListApp.png",
     img: "/img/todolistwithcontextapi.jpg",
