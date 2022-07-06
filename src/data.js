@@ -74,6 +74,7 @@ export const products = [
   {
     id: 2,
     img: "/img/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg",
+    title: "Portfolio Website",
     link: "https://yavuzgurdal.netlify.app/",
     github: "https://github.com/YavuzGurdal/React_Portfolio_1",
     //github: "https://github.com/YavuzGurdal",
