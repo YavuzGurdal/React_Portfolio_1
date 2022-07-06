@@ -2,7 +2,6 @@ export const products = [
 
   {
     id: 9993,
-    // img: "/img/todoListApp.png",
     img: "/img/goals.jpg",
     title: "Mern-Stack Auth-Authzrtn-Goals",
     category: "MongoDB / Express / Rest API / React / Redux /",
@@ -11,7 +10,6 @@ export const products = [
   },
   {
     id: 9994,
-    // img: "/img/todoListApp.png",
     img: "/img/todolistwithcontextapi.jpg",
     title: "ToDo App with React Context Api",
     category: "React / Context Api / UseRef / css",
@@ -20,7 +18,6 @@ export const products = [
   },
   {
     id: 9995,
-    // img: "/img/todoListApp.png",
     img: "/img/marvelHeroesCards.jpeg",
     title: "Marvel Heroes Cards",
     category: "React / Axios / css",
@@ -28,7 +25,6 @@ export const products = [
     github: "https://github.com/YavuzGurdal/MarvelHeroesCards",
   }, {
     id: 9996,
-    // img: "/img/todoListApp.png",
     img: "/img/todoListApp.jpg",
     title: "todo list app",
     category: "React / css",
@@ -37,7 +33,6 @@ export const products = [
   },
   {
     id: 9997,
-    // img: "/img/currencyApp.png",
     img: "/img/currencyApp.jpg",
     title: "currency app",
     category: "JAVASCRIPT / css",
@@ -46,7 +41,6 @@ export const products = [
   },
   {
     id: 9998,
-    // img: "/img/tas-kagit-makas2.jpeg",
     img: "/img/RockPaperScissors.jpg",
     title: "rock-paper-scissors game",
     category: "JAVASCRIPT",
@@ -55,7 +49,6 @@ export const products = [
   },
   {
     id: 9999,
-    // img: "/img/carRace.png",
     img: "/img/carRace.jpg",
     title: "car race",
     category: "JAVASCRIPT",
@@ -64,7 +57,6 @@ export const products = [
   },
   {
     id: 10000,
-    // img: "/img/NumberGuessinGame.png",
     img: "/img/number-guessing-game.jpg",
     title: "Number-Guessing-Game",
     category: "JAVASCRIPT",
