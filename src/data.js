@@ -3,7 +3,7 @@ export const products = [
   {
     id: 9992,
     img: "/img/merntodo.jpg",
-    title: "Mern-Stack Todo-Auth-Authzrtn",
+    title: "Mern-Stack Todo Auth-Authzrtn",
     category: "MongoDB / Express / Rest API / React / Redux / Toolkit / JWT /",
     link: "https://reactredux-todoapp-withauth-fe.netlify.app",
     github: "https://github.com/YavuzGurdal/reactredux-todoapp-withauth-fe",
