@@ -1,6 +1,14 @@
 export const products = [
 
   {
+    id: 9991,
+    img: "/img/calculator.jpg",
+    title: "Calculator",
+    category: "JavaScript / HTML5 / Css /",
+    link: "https://taschenrechner-app.netlify.app/",
+    github: "https://github.com/YavuzGurdal/Taschenrechner",
+  },
+  {
     id: 9992,
     img: "/img/merntodo.jpg",
     title: "Mern-Stack Todo Auth-Authzrtn",
