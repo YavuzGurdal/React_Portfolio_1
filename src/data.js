@@ -1,5 +1,4 @@
 export const products = [
-
   {
     id: 9991,
     img: "/img/calculator.jpg",
@@ -16,21 +15,22 @@ export const products = [
     link: "https://reactredux-todoapp-withauth-fe.netlify.app",
     github: "https://github.com/YavuzGurdal/reactredux-todoapp-withauth-fe",
   },
-  {
-    id: 9993,
-    img: "/img/goals.jpg",
-    title: "Mern-Stack Auth-Authzrtn-Goals",
-    category: "MongoDB / Express / Rest API / React / Redux /",
-    link: "https://mernstack-auth-autorztn-goals.herokuapp.com/",
-    github: "https://github.com/YavuzGurdal/auth-goals-mernstack",
-  },
+  // {
+  //   id: 9993,
+  //   img: "/img/goals.jpg",
+  //   title: "Mern-Stack Auth-Authzrtn-Goals",
+  //   category: "MongoDB / Express / Rest API / React / Redux /",
+  //   link: "https://mernstack-auth-autorztn-goals.herokuapp.com/",
+  //   github: "https://github.com/YavuzGurdal/auth-goals-mernstack",
+  // },
   {
     id: 9994,
     img: "/img/todolistwithcontextapi.jpg",
     title: "ToDo App with React Context Api",
     category: "React / Context Api / UseRef / css",
     link: "https://todolist-react-contextapi.netlify.app/",
-    github: "https://github.com/YavuzGurdal/React_ToDoList_Hooks-ContextApi-Last",
+    github:
+      "https://github.com/YavuzGurdal/React_ToDoList_Hooks-ContextApi-Last",
   },
   {
     id: 9995,
@@ -39,7 +39,8 @@ export const products = [
     category: "React / Axios / css",
     link: "https://marvel-heroes-cardss.netlify.app/",
     github: "https://github.com/YavuzGurdal/MarvelHeroesCards",
-  }, {
+  },
+  {
     id: 9996,
     img: "/img/todoListApp.jpg",
     title: "todo list app",
