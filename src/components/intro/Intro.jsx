@@ -1,14 +1,22 @@
 import React, { useContext } from "react";
 import "./intro.css";
-import Me from "../../img/Mee.jpeg";
+// import Me from "../../img/Mee.jpeg";
+import Me from "../../img/Mee2.jpeg";
 import { ThemeContext } from "../../context";
+import { styled } from "styled-components";
+
+const Section = styled.div`
+  height: 100vh;
+  /* kaydirinca tum componentin sayfayi kaplamasi icin  */
+  scroll-snap-align: center;
+`;
 
 function Intro() {
   const theme = useContext(ThemeContext); // useContext le contex ten gelen ThemeContext i theme e atiyoruz
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="i">
+    <Section className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro"> Hello, My name is </h2>
@@ -23,7 +31,8 @@ function Intro() {
             </div>
           </div>
           <p className="i-desc">
-            Greetings from the software developer who is always discovering and learning new things ...
+            Greetings from the software developer who is always discovering and
+            learning new things ...
           </p>
         </div>
         <svg
@@ -87,7 +96,7 @@ function Intro() {
         {/* <div className="i-bg"></div> */}
         <img src={Me} alt="" className="i-img" />
       </div>
-    </div>
+    </Section>
   );
 }
 

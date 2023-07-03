@@ -1,11 +1,18 @@
 import React from "react";
 import "./about.css";
 import Aboutme from "../../img/about-me.jpeg";
+import { styled } from "styled-components";
 // import Award from "../../img/award.png";
+
+const Section = styled.div`
+  height: 100vh;
+  /* kaydirinca tum componentin sayfayi kaplamasi icin  */
+  scroll-snap-align: center;
+`;
 
 function About() {
   return (
-    <div className="a">
+    <Section className="a">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
@@ -20,11 +27,13 @@ function About() {
       <div className="a-right-wrapper">
         <div className="a-right">
           <h1 className="a-title">About Me</h1>
-          <p className="a-sub">
-            Too long for me too short for you.
-          </p>
+          <p className="a-sub">Too long for me too short for you.</p>
           <p className="a-desc">
-            I am a person who is open to learning new things. It's always been my dream to be a software developer. I made a radical change in my life and became a software developer. Now I live in a new country, learned a new language and became a software developer. As a person who is open to innovations, I continue to learn new things...
+            I am a person who is open to learning new things. It's always been
+            my dream to be a software developer. I made a radical change in my
+            life and became a software developer. Now I live in a new country,
+            learned a new language and became a software developer. As a person
+            who is open to innovations, I continue to learn new things...
           </p>
           {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
@@ -38,7 +47,7 @@ function About() {
         </div> */}
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 

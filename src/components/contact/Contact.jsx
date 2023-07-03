@@ -7,6 +7,13 @@ import { useRef } from "react";
 import emailjs from "emailjs-com"; // email icin
 import { useState } from "react";
 import { ThemeContext } from "../../context";
+import { styled } from "styled-components";
+
+const Section = styled.div`
+  height: 100vh;
+  /* kaydirinca tum componentin sayfayi kaplamasi icin  */
+  scroll-snap-align: center;
+`;
 
 function Contact() {
   const formRef = useRef(); //  burasi onemli
@@ -32,14 +39,14 @@ function Contact() {
           console.log(error.text);
         }
       );
-    e.target.reset() // islemler bittikten sonra inputlari bosaltiyor.
+    e.target.reset(); // islemler bittikten sonra inputlari bosaltiyor.
   };
 
   const theme = useContext(ThemeContext); // useContext le contex ten gelen ThemeContext i theme e atiyoruz
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="c">
+    <Section className="c">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -109,14 +116,18 @@ function Contact() {
               rows="5"
             ></textarea>
             <button>Submit</button>
-            <p className='p-result' style={{
-              color: darkMode && "white"
-            }}>{done && "  Your Message recived"}</p>
-
+            <p
+              className="p-result"
+              style={{
+                color: darkMode && "white",
+              }}
+            >
+              {done && "  Your Message recived"}
+            </p>
           </form>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 
