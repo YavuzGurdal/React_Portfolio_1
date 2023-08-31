@@ -1,5 +1,13 @@
 export const products = [
   {
+    id: 9989,
+    img: "/img/horserace.jpg",
+    title: "Horse Race",
+    category: " HTML5 / Css / Javascript",
+    link: "https://horse-racee.netlify.app/",
+    github: "https://github.com/YavuzGurdal/horse-race",
+  },
+  {
     id: 9990,
     img: "/img/portfolio3d.jpg",
     title: "3D Portfolio Site",
